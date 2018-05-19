@@ -1,0 +1,23 @@
+{
+  "name": "promisify-event-rcv",
+  "version": "1.0.0",
+  "description": "This Node.js module gives the simple capability of wrapping almost any kind of function inside an event handler for a given Event Emitter and an event name. \nThen it returns a promise that resolves when the event has been edtected, and optionally rejects on a given timeout or when the 'error' event is detected. \n\nThis is quite a common pattern on my day to day job and have been so usefull so I decided to publish it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Murillhou/promisify-event-rcv"
+  },
+  "author": "Murillhou",
+  "license": "MIT",
+  "devDependencies": {
+    "app-root-path": "^2.0.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "path": "^0.12.7",
+    "sinon": "^5.0.7"
+  }
+}
